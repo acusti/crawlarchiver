@@ -1,0 +1,65 @@
+{
+    "name": "crawlarchiver",
+    "version": "0.1.0-0",
+    "description": "crawl and archive a website and all its pages as plain HTML files organized in directories to match the URL structure of the website",
+    "type": "module",
+    "sideEffects": false,
+    "exports": "index.js",
+    "main": "index.js",
+    "types": "index.js",
+    "scripts": {
+        "format": "prettier --write package.json README.md index.js",
+        "tsc": "tsc",
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/acusti/crawlarchiver.git"
+    },
+    "keywords": [
+        "scraper",
+        "webarchive",
+        "website",
+        "export",
+        "crawler"
+    ],
+    "author": "andrew patton <andrew@acusti.ca> (https://www.acusti.ca)",
+    "license": "Unlicense",
+    "bugs": {
+        "url": "https://github.com/acusti/crawlarchiver/issues"
+    },
+    "homepage": "https://github.com/acusti/crawlarchiver#readme",
+    "devDependencies": {
+        "@tsconfig/node20": "^20.1.2",
+        "@types/cheerio": "^0.22.35",
+        "@types/node": "^20.10.1",
+        "prettier": "^3.1.0",
+        "typescript": "^5.3.2"
+    },
+    "packageManager": "yarn@4.0.2+sha256.825003a0f561ad09a3b1ac4a3b3ea6207af2796d54f62a9420520915721f5186",
+    "prettier": {
+        "arrowParens": "always",
+        "printWidth": 80,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "all",
+        "useTabs": false,
+        "overrides": [
+            {
+                "files": [
+                    "*.md",
+                    "*.mdx",
+                    "*.markdown"
+                ],
+                "options": {
+                    "printWidth": 75,
+                    "proseWrap": "always"
+                }
+            }
+        ]
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.12",
+        "zip-a-folder": "^3.1.3"
+    }
+}
