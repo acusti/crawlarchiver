@@ -7,8 +7,9 @@
     "exports": "index.js",
     "main": "index.js",
     "types": "index.js",
+    "bin": "shell.js",
     "scripts": {
-        "format": "prettier --write package.json README.md index.js",
+        "format": "prettier --write package.json README.md index.js shell.js",
         "tsc": "tsc",
         "test": "test"
     },
