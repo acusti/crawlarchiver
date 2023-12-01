@@ -64,7 +64,7 @@ async function downloadPage(url, basePath, visited = new Set()) {
  * @param {string} url The initial URL to crawl
  * @returns {Promise<string>} Path to the generated ZIP file
  */
-export async function crawlarchiver(url) {
+export async function wbdl(url) {
     const { hostname } = new URL(url);
     const outputFolder = path.resolve(webcrypto.randomUUID(), hostname);
     const outputPath = `${outputFolder}.zip`;

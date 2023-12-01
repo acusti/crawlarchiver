@@ -1,5 +1,5 @@
 {
-    "name": "crawlarchiver",
+    "name": "wbdl",
     "version": "0.1.0-0",
     "description": "crawl and archive a website and all its pages as plain HTML files organized in directories to match the URL structure of the website",
     "type": "module",
@@ -14,7 +14,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/acusti/crawlarchiver.git"
+        "url": "git+https://github.com/acusti/wbdl.git"
     },
     "keywords": [
         "scraper",
@@ -26,9 +26,9 @@
     "author": "andrew patton <andrew@acusti.ca> (https://www.acusti.ca)",
     "license": "Unlicense",
     "bugs": {
-        "url": "https://github.com/acusti/crawlarchiver/issues"
+        "url": "https://github.com/acusti/wbdl/issues"
     },
-    "homepage": "https://github.com/acusti/crawlarchiver#readme",
+    "homepage": "https://github.com/acusti/wbdl#readme",
     "devDependencies": {
         "@tsconfig/node20": "^20.1.2",
         "@types/cheerio": "^0.22.35",

@@ -789,9 +789,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"crawlarchiver@workspace:.":
+"wbdl@workspace:.":
   version: 0.0.0-use.local
-  resolution: "crawlarchiver@workspace:."
+  resolution: "wbdl@workspace:."
   dependencies:
     "@tsconfig/node20": "npm:^20.1.2"
     "@types/cheerio": "npm:^0.22.35"
